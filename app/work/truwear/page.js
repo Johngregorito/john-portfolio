@@ -42,7 +42,7 @@ export default function TruwearPage() {
 
             {/* Right — static card */}
             <div className="hero-project-image" style={{ position: 'relative', height: '420px', borderRadius: '28px', overflow: 'hidden' }}>
-              <img src="/truwear-background.png" alt="Truwear Mockup Generator" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+              <img src="/truwear-background.jpg" alt="Truwear Mockup Generator" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
               <img src="/truwear-float.png" alt="" aria-hidden="true" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
             </div>
 

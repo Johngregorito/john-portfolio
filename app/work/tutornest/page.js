@@ -37,7 +37,7 @@ export default function TutorNestPage() {
 
             {/* Right — static card */}
             <div className="hero-project-image" style={{ position: 'relative', height: '420px', borderRadius: '28px', overflow: 'hidden' }}>
-              <img src="/tutornest-background.png" alt="TutorNest" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+              <img src="/tutornest-background.jpg" alt="TutorNest" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
               <img src="/tutornest-float.png" alt="" aria-hidden="true" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
             </div>
 

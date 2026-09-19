@@ -61,8 +61,8 @@ export default function Navbar() {
           style={{
             position: 'relative',
             overflow: 'hidden',
-            width: open ? '180px' : '44px',
-            height: open ? '224px' : '44px',
+            width: open ? '200px' : '44px',
+            height: open ? '260px' : '44px',
             borderRadius: open ? '16px' : '20px',
             transition: 'width 0.42s cubic-bezier(0.4, 0, 0.2, 1), height 0.42s cubic-bezier(0.4, 0, 0.2, 1), border-radius 0.3s ease',
             ...glass,
@@ -106,7 +106,7 @@ export default function Navbar() {
                 onClick={e => { e.stopPropagation(); setOpen(false); }}
                 style={{
                   fontFamily: 'var(--font-bebas)',
-                  fontSize: '32px',
+                  fontSize: '36px',
                   letterSpacing: '0.06em',
                   color: '#1A0A0A',
                   textDecoration: 'none',

@@ -42,7 +42,7 @@ export default function NoDirtPage() {
 
             {/* Right — static card */}
             <div className="hero-project-image" style={{ position: 'relative', height: '420px', borderRadius: '28px', overflow: 'hidden' }}>
-              <img src="/nodirt-background.png" alt="No Dirt Golf" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+              <img src="/nodirt-background.jpg" alt="No Dirt Golf" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
               <img src="/nodirt-float.png" alt="" aria-hidden="true" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
             </div>
 
@@ -65,7 +65,7 @@ export default function NoDirtPage() {
             <div>
               <p style={{ ...labelText, color: '#1A0A0A', opacity: 0.4, marginBottom: '10px' }}>Redesigned Homepage</p>
               <div style={{ borderRadius: '16px', overflow: 'hidden', background: '#EDE8E1' }}>
-                <img src="/nodirt-homepage.png" alt="Redesigned No Dirt Golf site" style={{ width: '100%', display: 'block' }} />
+                <img src="/nodirt-homepage.jpg" alt="Redesigned No Dirt Golf site" style={{ width: '100%', display: 'block' }} />
               </div>
             </div>
           </div>
@@ -235,7 +235,7 @@ export default function NoDirtPage() {
             <div>
               <p style={{ ...labelText, color: '#1A0A0A', opacity: 0.4, marginBottom: '10px' }}>Customizer: Final Product</p>
               <div style={{ borderRadius: '16px', overflow: 'hidden', background: '#EDE8E1' }}>
-                <img src="/nodirt-customizer.png" alt="No Dirt Golf product customizer" style={{ width: '100%', display: 'block' }} />
+                <img src="/nodirt-customizer.jpg" alt="No Dirt Golf product customizer" style={{ width: '100%', display: 'block' }} />
               </div>
             </div>
           </div>

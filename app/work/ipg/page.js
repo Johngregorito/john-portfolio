@@ -41,7 +41,7 @@ export default function IPGPage() {
 
             {/* Right — static card */}
             <div className="hero-project-image" style={{ position: 'relative', height: '420px', borderRadius: '28px', overflow: 'hidden' }}>
-              <img src="/ipg-background.png" alt="International Peace Gardens" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+              <img src="/ipg-background.jpg" alt="International Peace Gardens" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
               <img src="/ipg-float.png" alt="" aria-hidden="true" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
             </div>
 
@@ -63,7 +63,7 @@ export default function IPGPage() {
               <div>
                 <p style={{ ...labelText, marginBottom: '12px' }}>Before</p>
                 <div style={{ borderRadius: '16px', overflow: 'hidden', background: '#EDE8E1' }}>
-                  <img src="/ipg-before.png" alt="Original IPG website" style={{ width: '100%', display: 'block' }} />
+                  <img src="/ipg-before.jpg" alt="Original IPG website" style={{ width: '100%', display: 'block' }} />
                 </div>
                 <p style={{ ...bodyText, fontSize: '13px', marginTop: '12px', opacity: 0.6 }}>
                   Cluttered homepage, no clear navigation, outdated colors, buried Donate button, poor mobile usability.
@@ -72,7 +72,7 @@ export default function IPGPage() {
               <div>
                 <p style={{ ...labelText, marginBottom: '12px' }}>After</p>
                 <div style={{ borderRadius: '16px', overflow: 'hidden', background: '#EDE8E1' }}>
-                  <img src="/ipg-after.png" alt="Redesigned IPG website" style={{ width: '100%', display: 'block' }} />
+                  <img src="/ipg-after.jpg" alt="Redesigned IPG website" style={{ width: '100%', display: 'block' }} />
                 </div>
                 <p style={{ ...bodyText, fontSize: '13px', marginTop: '12px', opacity: 0.6 }}>
                   Clean, welcoming site with visible CTAs, interactive map, events calendar, and a Donate flow that works.
@@ -270,7 +270,7 @@ export default function IPGPage() {
         right={
           <div style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
             {[
-              { src: '/ipg-homepage.png',    label: 'Homepage',    title: 'Mission-forward hero, visible Donate in nav' },
+              { src: '/ipg-homepage.jpg',    label: 'Homepage',    title: 'Mission-forward hero, visible Donate in nav' },
               { src: '/ipg-visit-page.png',  label: 'Visit Page',  title: 'Map as hero element, logistics above the fold' },
               { src: '/ipg-about-page.png',  label: 'About Page',  title: 'Mission and story front and center' },
               { src: '/ipg-donate-page.png', label: 'Donate Page', title: 'Stepped form + visible confirmation' },
