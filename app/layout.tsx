@@ -18,7 +18,7 @@ export const metadata = {
   description: "Portfolio of John Morales, multidisciplinary designer.",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body className={`${inter.variable} ${bebas.variable}`} suppressHydrationWarning>
