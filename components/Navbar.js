@@ -64,7 +64,7 @@ export default function Navbar() {
             width: open ? '200px' : '44px',
             height: open ? '260px' : '44px',
             borderRadius: open ? '16px' : '20px',
-            transition: 'width 0.42s cubic-bezier(0.4, 0, 0.2, 1), height 0.42s cubic-bezier(0.4, 0, 0.2, 1), border-radius 0.3s ease',
+            transition: 'width 0.26s cubic-bezier(0.4, 0, 0.2, 1), height 0.26s cubic-bezier(0.4, 0, 0.2, 1), border-radius 0.2s ease',
             ...glass,
           }}
         >
@@ -96,7 +96,7 @@ export default function Navbar() {
             justifyContent: 'center',
             gap: '6px',
             opacity: open ? 1 : 0,
-            transition: open ? 'opacity 0.2s ease 0.22s' : 'opacity 0.1s ease',
+            transition: open ? 'opacity 0.15s ease 0.14s' : 'opacity 0.08s ease',
             pointerEvents: open ? 'auto' : 'none',
           }}>
             {links.map(item => (

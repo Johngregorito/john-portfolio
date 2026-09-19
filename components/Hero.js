@@ -105,7 +105,7 @@ export default function Hero() {
       overflow: 'visible',
       display: 'flex',
       alignItems: isMobile ? 'flex-start' : 'center',
-      padding: isMobile ? '80px 6% 0' : '0 6%',
+      padding: isMobile ? '68px 6% 0' : '0 6%',
     }}>
 
       {/* Portrait */}

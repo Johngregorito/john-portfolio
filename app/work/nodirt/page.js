@@ -13,7 +13,7 @@ export default function NoDirtPage() {
       <Navbar />
 
       {/* ── HERO ── */}
-      <section style={{ padding: '120px 0 0' }}>
+      <section className="page-top" style={{ padding: '120px 0 0' }}>
         <div className="container">
           <div className="hero-project-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 420px', gap: '64px', alignItems: 'center' }}>
 

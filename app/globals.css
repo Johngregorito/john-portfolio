@@ -68,6 +68,12 @@ html, body {
 /* ── Mobile ─────────────────────────────────── */
 @media (max-width: 768px) {
 
+  /* Consistent top clearance across all pages (navbar is 72px tall) */
+  .page-top {
+    padding-top: 80px !important;
+  }
+
+
   /* Project cards — shorter */
   .project-card {
     height: 240px;

@@ -13,7 +13,7 @@ export default function AboutPage() {
     <main style={{ backgroundColor: '#f9f8f7' }}>
       <Navbar />
 
-      <section style={{ padding: '120px 0 100px' }}>
+      <section className="page-top" style={{ padding: '120px 0 100px' }}>
         <div className="container">
           <div className="about-grid" style={{
             display: 'grid',

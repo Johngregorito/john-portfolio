@@ -8,7 +8,7 @@ export default function ContactPage() {
     <main>
       <Navbar />
 
-      <section style={{
+      <section className="page-top" style={{
         minHeight: '100vh',
         display: 'flex',
         flexDirection: 'column',
