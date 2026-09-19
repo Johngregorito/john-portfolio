@@ -10,10 +10,16 @@ export default function CustomCursor() {
   const [pos,    setPos]    = useState({ x: -200, y: -200 });
   const [size,   setSize]   = useState(BASE_SIZE);
   const [isCard, setIsCard] = useState(false);
+  const [isTouch, setIsTouch] = useState(false);
   const rafRef  = useRef(null);
   const pending = useRef({ x: -200, y: -200 });
 
   useEffect(() => {
+    setIsTouch(window.matchMedia('(pointer: coarse)').matches);
+  }, []);
+
+  useEffect(() => {
+    if (isTouch) return;
     const onMove = (e) => {
       pending.current = { x: e.clientX, y: e.clientY };
       if (rafRef.current) return;
@@ -55,7 +61,9 @@ export default function CustomCursor() {
       document.removeEventListener('mouseleave', onLeave);
       if (rafRef.current) cancelAnimationFrame(rafRef.current);
     };
-  }, []);
+  }, [isTouch]);
+
+  if (isTouch) return null;
 
   const base = {
     position:      'fixed',

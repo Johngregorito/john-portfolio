@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
+import Image from 'next/image';
 
 function useIsMobile() {
   const [isMobile, setIsMobile] = useState(null);
@@ -113,9 +114,12 @@ export default function Hero() {
           ? { position: 'absolute', bottom: 0, right: 0, height: '450px', zIndex: 1 }
           : { position: 'absolute', right: '6%', top: '0', height: '110%', zIndex: 1 }
         }>
-          <img
+          <Image
             src="/portrait.png"
             alt="John Morales"
+            width={1133}
+            height={1388}
+            priority
             style={{ height: '100%', width: 'auto', display: 'block' }}
           />
         </div>

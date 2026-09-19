@@ -53,7 +53,7 @@ const projects = [
   },
 ];
 
-function ProjectCard({ project }) {
+function ProjectCard({ project, isMobile }) {
   const [scrolled,    setScrolled]    = useState(false);
   const [hovered,     setHovered]     = useState(false);
   const [mouseOffset, setMouseOffset] = useState({ x: 0, y: 0 });
@@ -82,7 +82,7 @@ function ProjectCard({ project }) {
   const handleMouseLeave = () => { setHovered(false); setMouseOffset({ x: 0, y: 0 }); };
 
   const bgScale        = hovered ? 0.92 : 1;
-  const floatScale     = hovered ? 1.15 : scrolled ? 1.05 : 1;
+  const floatScale     = hovered ? 1.15 : scrolled ? (isMobile === true ? 1.18 : 1.05) : 1;
   const floatTransform = `scale(${floatScale}) translate(${mouseOffset.x}px, ${mouseOffset.y}px)`;
 
   return (
@@ -181,7 +181,7 @@ export default function WorkSection() {
         gap:           '56px',
       }}>
         {projects.map((project) => (
-          <ProjectCard key={project.id} project={project} />
+          <ProjectCard key={project.id} project={project} isMobile={isMobile} />
         ))}
       </div>
     </section>
