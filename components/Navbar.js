@@ -55,7 +55,7 @@ export default function Navbar() {
 
   if (isMobile) {
     return (
-      <nav ref={navRef} style={{ position: 'fixed', top: '28px', right: '6%', zIndex: 50 }}>
+      <nav ref={navRef} data-portrait-exit style={{ position: 'fixed', top: '28px', right: '6%', zIndex: 50 }}>
         <div
           onClick={() => setOpen(o => !o)}
           style={{
@@ -127,6 +127,7 @@ export default function Navbar() {
 
   return (
     <nav
+      data-portrait-exit
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       style={{

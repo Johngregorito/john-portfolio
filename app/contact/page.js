@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 
 export default function ContactPage() {
   return (
-    <main>
+    <main style={{ backgroundColor: '#f9f8f7' }}>
       <Navbar />
 
       <section className="page-top" style={{
@@ -26,7 +26,7 @@ export default function ContactPage() {
             letterSpacing: '0.02em',
             marginBottom: '40px',
           }}>
-            LET'S WORK<br />TOGETHER
+            LET&apos;S<br />WORK<br />TOGETHER
           </h1>
 
           {/* CTA button */}

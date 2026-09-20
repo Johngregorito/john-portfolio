@@ -29,6 +29,9 @@ html, body {
   padding: 0 6%;
 }
 
+.no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
 
 .circular-text {
   animation: spin 14s linear infinite;
