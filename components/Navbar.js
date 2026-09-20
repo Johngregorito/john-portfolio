@@ -68,7 +68,7 @@ export default function Navbar() {
             ...glass,
           }}
         >
-          {/* Hamburger — fades out as pill opens */}
+          {/* Hamburger — fades out as pill opens, delayed reappearance on close */}
           <div style={{
             position: 'absolute',
             inset: 0,
@@ -76,7 +76,7 @@ export default function Navbar() {
             alignItems: 'center',
             justifyContent: 'center',
             opacity: open ? 0 : 1,
-            transition: 'opacity 0.15s ease',
+            transition: open ? 'opacity 0.12s ease' : 'opacity 0.12s ease 0.18s',
             pointerEvents: 'none',
           }}>
             <svg width="20" height="14" viewBox="0 0 20 14" fill="none" stroke="#1A0A0A" strokeWidth="2.8" strokeLinecap="butt">
