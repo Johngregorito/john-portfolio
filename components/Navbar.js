@@ -76,7 +76,7 @@ export default function Navbar() {
             alignItems: 'center',
             justifyContent: 'center',
             opacity: open ? 0 : 1,
-            transition: open ? 'opacity 0.12s ease' : 'opacity 0.12s ease 0.18s',
+            transition: open ? 'opacity 0.12s ease' : 'opacity 0.12s ease 0.26s',
             pointerEvents: 'none',
           }}>
             <svg width="20" height="14" viewBox="0 0 20 14" fill="none" stroke="#1A0A0A" strokeWidth="2.8" strokeLinecap="butt">
