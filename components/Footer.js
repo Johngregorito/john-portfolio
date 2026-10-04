@@ -22,8 +22,9 @@ export default function Footer() {
   return (
     <footer style={{
       backgroundColor: '#E63235',
-      borderRadius: isMobile ? '36px 36px 0 0' : '56px 56px 0 0',
-      padding: isMobile ? '40px 6% 24px' : '52px 6% 32px',
+      borderRadius: isMobile ? '36px' : '56px',
+      padding: isMobile ? '40px 6% 32px' : '52px 6% 48px',
+      margin: isMobile ? '0 12px 12px' : '0 16px 16px',
     }}>
       <div style={{
         maxWidth: '1400px',
