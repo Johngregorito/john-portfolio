@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 
 const BASE_SIZE     = 16;
 const CARD_SIZE     = 72;
-const PORTRAIT_SIZE = 145;
+const PORTRAIT_SIZE = 150;
 const HIDE_SIZE     = 0;
 
 export default function CustomCursor() {
